@@ -1,0 +1,413 @@
+{"items":[
+    {
+      "id":0,
+      "nome":"São João del-Rei",
+      "image": "mini_cidades.png",
+       "items": [
+          {
+		    "id":0,
+            "nome":"Mapa Geral",
+            "image": "resources/images/atrativos.png",
+            "tipo": "Map",
+			"leaf":true,
+			"isMap": true,
+			"localidades":[
+                   {"id":0, "lat":-21.138507, "lng":-44.259775,"nome": "Nome localidade"},
+				   {"id":1, "lat":-21.138507, "lng":-44.259775,"nome": "Nome localidade"},
+				   {"id":2, "lat":-21.138507, "lng":-44.259775,"nome": "Nome localidade"},
+				   {"id":3, "lat":-21.138507, "lng":-44.259775,"nome": "Nome localidade"},
+                ],
+           },
+            {
+			"id":1,
+            "nome":"Atrativos Turisticos",
+            "image": "resources/images/atrativos.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Igreja São Francisco",
+                "image": "resources/images/atrativos/image01.jpg",
+                "descricao":"A Venerável Ordem Terceira de São Francisco de Assis, ou ainda Venerável Ordem Terceira da Penitência de São Francisco de Assis, foi fundada em 8 de março de 1749 na então Vila de São João del-Rei. A ordem foi canonicamente ereta pelo então Bispo de Mariana Dom Frei Manoel da Cruz.",
+                "tipo": "Igreja",
+                "lat":-21.138507,
+                "lng":-44.259775,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Teatro Municipal",
+                "image": "resources/images/atrativos/image02.jpg",
+                "tipo": "Teatro",
+                "descricao":"O Teatro Municipal de São João del-Rei[1] foi construído em 1893. Passou por uma grande reforma entre 1922 e 1925.Palco difusor da cultura regional até a década de 1970, chegou aos anos 1990 abandonado e sem condições técnicas de receber espetáculos. Em 1998, através do Instituto Histórico e Geográfico de São João del-Rei, contando com o apoio da iniciativa privada, foi possível a sua recuperação e modernização. As obras foram finalizadas em junho de 2003.",
+                "lat":-21.134574,
+                "lng":-44.258895,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":2,
+                "nome":"Maria Fumaça",
+               "image": "aresources/images/trativos/image03.jpg",
+               "tipo": "Trem",
+                "descricao":"Um passeio de Maria Fumaça entre São João del Rei e Tiradentes encanta crianças, jovens e adultos. Esse encanto pelo passeio já começa no embarque ou desembarque na pequena estação construída em 1881, para servir a Companhia de Ferro Oeste de Minas. Possui o mesmo estilo das estações mineiras edificadas no final do século XVIII e princípio do XIX. ",
+                "lat":-21.133704,
+                "lng":-44.257672,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              }
+            ]
+          },
+          {
+            "id":2,
+            "nome":"Hospedagem",
+            "image": "resources/images/hospedagens.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Pousada Ouro Branco",
+                "image": "hospedagens/image01.jpg",
+                "descricao":"O charme, aconchego e hospitalidade fazem com que a Pousada se destaque e conquiste seus hóspedes. Durante o dia uma piscina com cachoeira ou uma piscina aquecida com sauna, para quem prefere a água mais morninha, massageado pela hidromassagem. Some-se a isso o serviço de bar e restaurante que funciona a partir do meio dia, assim que acaba o café. O restaurante oferece uma boa carta de vinhos e um cardápio diversificado de carnes e peixes grelhados, massas deliciosas, comidas típicas da cozinha mineira, tira-gostos variados, fondues e caldos típicos. Ah, não poderíamos deixar de dizer, serviço de quarto sem nenhum custo adicional.",
+                "tipo": "Pousada",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Hotel Bela Noite",
+                "image": "resources/images/hospedagens/image02.jpg",
+                "tipo": "Hotel",
+                "descricao":"O charme, aconchego e hospitalidade fazem com que a Hotel se destaque e conquiste seus hóspedes. Durante o dia uma piscina com cachoeira ou uma piscina aquecida com sauna, para quem prefere a água mais morninha, massageado pela hidromassagem. Some-se a isso o serviço de bar e restaurante que funciona a partir do meio dia, assim que acaba o café. O restaurante oferece uma boa carta de vinhos e um cardápio diversificado de carnes e peixes grelhados, massas deliciosas, comidas típicas da cozinha mineira, tira-gostos variados, fondues e caldos típicos. Ah, não poderíamos deixar de dizer, serviço de quarto sem nenhum custo adicional.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":2,
+                "nome":"Hotel Cidade",
+               "image": "resources/images/hospedagens/image03.jpg",
+               "tipo": "Hotel",
+                "descricao":"O charme, aconchego e hospitalidade fazem com que a Hotel se destaque e conquiste seus hóspedes. Durante o dia uma piscina com cachoeira ou uma piscina aquecida com sauna, para quem prefere a água mais morninha, massageado pela hidromassagem. Some-se a isso o serviço de bar e restaurante que funciona a partir do meio dia, assim que acaba o café. O restaurante oferece uma boa carta de vinhos e um cardápio diversificado de carnes e peixes grelhados, massas deliciosas, comidas típicas da cozinha mineira, tira-gostos variados, fondues e caldos típicos. Ah, não poderíamos deixar de dizer, serviço de quarto sem nenhum custo adicional.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              }
+            ]
+          },
+           {
+            "id":3,
+            "nome":"Bares/Restaurantes",
+            "image": "resources/images/bares_restaurantes.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Restaurante Mineiro",
+                "image": "Bares-Restaurantes/image01.jpg",
+                "descricao":"Conhecido pela qualidade de seus pratos e petiscos, além da qualidade de seu atendimento A simpatia e dedicação de nossa equipe de garçons é uma de suas marcas registradas.",
+                "tipo": "Restaurante",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+                "products":[
+                   {"id":0,"nome":"Teste 01", "descricao":"descricao teste", "preco":"R$1,00", "image":"resources/images/mini_atrativos.png"},
+                   {"id":1,"nome":"Teste 02", "descricao":"descricao teste", "preco":"R$1,00", "image":"resources/images/mini_atrativos.png"},
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Bar do Tatu",
+                "image": "resources/images/Bares-Restaurantes/image02.jpg",
+                "tipo": "Bar",
+                "descricao":"Conhecido pela qualidade de seus pratos e petiscos, além da qualidade de seu atendimento A simpatia e dedicação de nossa equipe de garçons é uma de suas marcas registradas.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"resources/images/mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"resources/images/mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":2,
+                "nome":"Lanchonete Mega",
+               "image": "resources/images/Bares-Restaurantes/image03.jpg",
+               "tipo": "Lanchonete",
+                "descricao":"Conhecido pela qualidade de seus pratos e petiscos, além da qualidade de seu atendimento A simpatia e dedicação de nossa equipe de garçons é uma de suas marcas registradas.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"resources/images/mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"resources/images/mini_atrativos.png"}
+                ],
+              }
+            ]
+          },
+          {
+            "id":4,
+            "nome":"Compras",
+            "image": "resources/images/compras.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Maria Modas",
+                "image": "compras/image01.jpg",
+                "descricao":"Empresa especializada no comércio de calçados e agora também de acessórios e roupas. Em nossa loja, você encontra dezenas de marcas nacionais.",
+                "tipo": "Confecção",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"resources/images/mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"resources/images/mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Magazine Eletro",
+                "image": "resources/images/compras/image02.jpg",
+                "tipo": "Eletrodomesticos",
+                "descricao":"Encontre o que você deseja em nossa loja. Veja nossa linha de eletrônicos, eletrodomésticos, celulares, notebooks, câmeras digitais e tudo mais.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"resources/images/mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"resources/images/mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":2,
+                "nome":"Maria e João Modas",
+               "image": "resources/images/compras/image03.jpg",
+               "tipo": "Confecção",
+                "descricao":"Empresa especializada no comércio de calçados e agora também de acessórios e roupas. Em nossa loja, você encontra dezenas de marcas nacionais.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              }
+            ]
+          },
+          {
+            "id":5,
+            "nome":"Eventos",
+            "image": "resources/images/eventos.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Show Paulo Carlos",
+                "image": "eventos/image01.jpg",
+                "descricao":"Show de Paulo Carlos neste fim de semana ocorrerá no estadio municipal",
+                "tipo": "Show",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Teatro Magico",
+                "image": "resources/images/eventos/image02.jpg",
+                "tipo": "Teatro",
+                "descricao":"O Teatro Mágico (TM) é um grupo musical brasileiro formado em 2003 na cidade de Osasco, São Paulo, criado por Fernando Anitelli. O TM é um projeto que reúne elementos do circo, do teatro, da poesia, da música, da literatura, da política e do cancioneiro popular tornando possível a junção de diferentes segmentos artísticos numa mesma apresentação.",
+                "lat":-21.134574,
+                "lng":-44.258895,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":2,
+                "nome":"Palestra Marco Jose da Silva",
+               "image": "resources/images/eventos/image03.jpg",
+               "tipo": "Palestra",
+                "descricao":"Apresentação oral que pretende apresentar informação ou ensinar pessoas a respeito de um assunto em particular, por exemplo, uma proferida por um professor de universidade ou colegial. Palestras são usadas para transmitir informação de natureza importante, histórica, prática, teórica e equacional. ",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              }
+            ]
+          },
+          {
+            "id":6,
+            "nome":"Resumo Local",
+            "image": "resources/images/resumo_local.png",
+            "descricao":"São João del-Rei é um município brasileiro do estado de Minas Gerais. É a maior cidade Setecentista do estado. Localiza-se na Bacia do Alto Rio Grande, de acordo com o IBGE [6] a cidade enquadra-se na região do Campo das Vertentes, sudeste de Minas Gerais. Polariza cidades de sua região e do Sul de Minas. Seu índice de desenvolvimento humano (IDH), é classificado como elevadíssimo, com 0,816",
+            "tipo": "Cidde",
+            "lat":-21.122936,
+            "lng":-44.262543,
+            "leaf":true,
+            "contatos":[
+               {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+               {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+               {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+            ],
+            "images":[
+               {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+               {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+            ],
+          },
+          {
+            "id":7,
+            "nome":"Serviços",
+            "image": "resources/images/mini_serviços.png",
+            "items": [
+              {
+                "id":0,
+                "nome":"Policia Militar",
+                "image": "Serviços/image01.jpg",
+                "descricao":"As Polícias Militares estaduais são as 27 forças de segurança pública que têm por função primordial o policiamento ostensivo e a preservação da ordem pública no âmbito dos estados (e do Distrito Federal). Subordinam-se aos governadores e são, para fins de organização, forças auxiliares e reserva do Exército Brasileiro, e integram o sistema de segurança pública e defesa social do Brasil. São custeadas por cada estado-membro e, no caso do Distrito Federal, pela União",
+                "tipo": "Policia",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              },
+              {
+                "id":1,
+                "nome":"Hospital",
+                "image": "resources/images/Serviços/image02.jpg",
+                "tipo": "Saude",
+                "descricao":"Local destinado ao atendimento de doentes, para proporcionar o diagnóstico, que pode ser de vários tipos (laboratorial, clínico, cinesiológico-funcional) e o tratamento necessário.",
+                "lat":37.788539,
+                "lng":-122.401643,
+                "leaf":true,
+                "contatos":[
+                   {"id":0, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":1, "contato":"(32)9999-0000", "tipo":"Telefone"},
+                   {"id":2, "contato":"contato@gmail.com", "tipo":"Email"}
+                ],
+                "images":[
+                   {"id":0, "descricao":"image", "src":"mini_atrativos.png"},
+                   {"id":1, "descricao":"image", "src":"mini_atrativos.png"}
+                ],
+              }
+            ]
+          }
+        ]
+    },
+  ],
+  "text":"."
+}
