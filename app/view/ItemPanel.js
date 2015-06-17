@@ -1,34 +1,25 @@
-
-Ext.define('GuiaPhone.view.ItemPanel', {
+Ext.define('Sencha-Touch.view.ItemPanel', {
     extend: 'Ext.tab.Panel',
 
     config: {
         border: 10,
         tabBarPosition: 'bottom',
-        
-                items: [
-                    //Pronto
-                    {
-                        xtype: 'uiDetailContainer',
-                        title: 'Detalhes',
-                        iconCls: 'home',
-                    },
-                    {
-                        //Pronto
-                        xtype: 'uiContact',
-                        title: 'Contatos',
-                        iconCls: 'maps'
-                    },
-                    {
-                        //Pronto
-                        xtype: 'uilocation',
-                        title: 'Localização',
-                        iconCls: 'locate'
-                       
-                    }
-                ]
-            
-        
+
+        items: [{
+            xtype: 'uiDetailContainer',
+            title: 'Detalhes',
+            iconCls: 'home',
+        }, {
+            xtype: 'uiContact',
+            title: 'Contatos',
+            iconCls: 'maps'
+        }, {
+            xtype: 'uilocation',
+            title: 'Localização',
+            iconCls: 'locate'
+        }]
+
+
     }
 
 });

@@ -1,4 +1,4 @@
-Ext.define('GuiaPhone.view.Images', {
+Ext.define('Sencha-Touch.view.Images', {
 
 	extend: 'Ext.Carousel',
 

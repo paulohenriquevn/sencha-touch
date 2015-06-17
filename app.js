@@ -5,7 +5,7 @@ Ext.Loader.setPath({
 //</debug>
 
 Ext.application({
-    name: 'GuiaPhone',
+    name: 'Sencha-Touch',
 
     requires: [
         'Ext.Map',
@@ -57,14 +57,8 @@ Ext.application({
     tabletStartupScreen: 'resources/loading/Homescreen~ipad.jpg',
 
     launch: function() {
-        // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-
-        // Initialize the main view
-        // Ext.Viewport.add(Ext.create('GuiaPhone.view.Main'));
-        Ext.Viewport.add(Ext.create('GuiaPhone.view.ListItem'));
-        //Ext.Viewport.add(Ext.create('GuiaPhone.view.DetailContainer'));
-        
+        Ext.Viewport.add(Ext.create('GuiaPhone.view.ListItem')     
     },
 
     onUpdated: function() {

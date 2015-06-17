@@ -1,4 +1,4 @@
-Ext.define('GuiaPhone.controller.Itens',{
+Ext.define('Sencha-Touch.controller.Itens',{
  extend: 'Ext.app.Controller',
 
 config:{
@@ -11,9 +11,9 @@ config:{
 
     refs:{
     	  listCidade: 'uiListItem',
-        item: 'GuiaPhone.model.Item',
-        contato: 'GuiaPhone.model.Item',
-        itemPanel: 'GuiaPhone.view.ItemPanel',
+        item: 'Sencha-Touch.model.Item',
+        contato: 'Sencha-Touch.model.Item',
+        itemPanel: 'Sencha-Touch.view.ItemPanel',
     },
 
     control:{
